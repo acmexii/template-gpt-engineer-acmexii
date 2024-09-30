@@ -51,7 +51,7 @@ function customStringify(obj, cache = new Set()) {
     }
 
     if (cache.has(obj)) {
-        return '{}'; // 순환 참조 처리
+        return '{}'; // 순환 참조 처리...
     }
 
     cache.add(obj);
